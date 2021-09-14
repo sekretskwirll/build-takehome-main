@@ -8,7 +8,7 @@ The goal is to make incremental improvements and create a learning opportunity; 
 
 Another engineer added a few features to this API.
 
-* They updated the `/vagetables` json response to include the average rating for each vegetable. You can find that change in the Vegetable class.
+* They updated the `/vegetables` json response to include the average rating for each vegetable. You can find that change in the Vegetable class.
 
 * They wanted to make user emails unique and downcase them before storing them in the database. You can find that change in the User class.
 
