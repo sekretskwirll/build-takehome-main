@@ -49,7 +49,8 @@ class RatingsController < ApplicationController
       params.require(:rating).permit(
         :user_id,
         :vegetable_id,
-        :value
+        :value,
+        :flag
       )
     end
 end
